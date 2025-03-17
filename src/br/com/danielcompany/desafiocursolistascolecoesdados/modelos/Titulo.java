@@ -1,18 +1,18 @@
 package br.com.danielcompany.desafiocursolistascolecoesdados.modelos;
 
 public class Titulo implements Comparable<Titulo> {
-    private String Titulo;
+    private String titulo;
 
     public Titulo(String titulo) {
-        Titulo = titulo;
+        this.titulo = titulo;
     }
 
     public String getTitulo() {
-        return Titulo;
+        return titulo;
     }
 
     public void setTitulo(String titulo) {
-        Titulo = titulo;
+        this.titulo = titulo;
     }
 
     @Override
